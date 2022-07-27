@@ -1,0 +1,74 @@
+.forecast-container {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forecast-block {
+  width: 15%;
+  --variable-width: 15%;
+  margin: 10px 0;
+  padding: 20px 10px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, .05);
+  border-radius: 7px;
+  box-shadow: 0 0 5px 3px dimgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor:pointer;
+  transition: 0.2s;
+}
+
+.forecast-block:hover {
+  transform: translate(0px, -10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, .1);
+  box-shadow: 0 0 5px 5px dimgrey;
+  width: 16%;
+}
+
+.forecast-week-day {
+  color: MediumSeaGreen;
+  font-weight: bold;
+}
+
+.forecast-date {
+  padding-top: 10px;
+}
+
+.forecast-temperature {
+  color: MediumSeaGreen;
+  font-size: 30px;
+}
+
+.forecast-description {
+  padding-top: 10px;
+}
+
+@media (max-width: 800px) and (min-width: 650px) {
+  .forecast-block {
+    width: 18%;
+  }
+}
+
+@media (max-width: 650px) and (min-width: 500px) {
+  .forecast-container {
+    width: 100%;
+    min-width: 500px;
+  }
+
+  .forecast-block {
+    min-width: 100px;
+  }
+}
+
+@media (max-width: 500px) {
+  .forecast-block {
+    min-width: 90px;
+  }
+}

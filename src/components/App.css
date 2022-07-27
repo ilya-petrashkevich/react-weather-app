@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html, body {
+    font-size: 13px;
+  }
+
+
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+  html, body {
+    font-size: 11px;
+  }
+
+
+
+}
+
+@media (max-width: 800px) and (min-width: 650px) {
+  html, body {
+    font-size: 11px;
+  }
+
+}
+
+@media (max-width: 650px) and (min-width: 500px) {
+  html, body {
+    font-size: 10px;
+  }
+
+
+}
+
+@media (max-width: 500px) {
+  html, body {
+    font-size: 9px;
+  }
+
+
+}
+
+

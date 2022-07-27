@@ -1,0 +1,22 @@
+.container-fluid {
+  padding: 0;
+}
+
+.navbar-nav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+@media (max-width: 500px) {
+  nav {
+    min-width: 500px;
+  }
+
+
+}

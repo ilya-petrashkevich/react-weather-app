@@ -1,0 +1,81 @@
+.weather-today-container {
+  width: 85%;
+  margin: 30px auto;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, .05);
+  border-radius: 10px;
+  box-shadow: 0 0 7px 5px dimgrey;
+}
+
+.info-air-temperature-container {
+  height: 100%;
+  justify-content: space-between;
+}
+
+.weather-today-container-name {
+  color: MediumSeaGreen;
+}
+
+.weather-today-container-header {
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: MediumSeaGreen;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-today-container-info {
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.info-air-temperature {
+  font-size: 40px;
+  margin-top: 1rem;
+}
+
+.info-air-feels_like {
+  margin-top: 1.2rem;
+}
+
+sup {
+  align-items: center;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  text-align: left;
+  padding-left: 10px;
+}
+
+@media (max-width: 800px) and (min-width: 650px) {
+  .weather-today-container {
+    width: 85%;
+  }
+}
+
+@media (max-width: 650px) and (min-width: 500px) {
+  .weather-today-container {
+    width: 90%;
+    min-width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .weather-today-container {
+    width: 100%;
+    min-width: 500px;
+  }
+}
