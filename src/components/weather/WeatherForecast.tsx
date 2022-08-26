@@ -4,12 +4,12 @@ import './WeatherForecast.css'
 import { useActions } from '../../hooks/useActions';
 
 //===================== Переменные для картинок фона ========================
-const clear = new URL('../../images/clear.jpg', import.meta.url);
-const clouds = new URL('../../images/clouds.jpg', import.meta.url);
-const rain = new URL('../../images/rain.jpg', import.meta.url);
-const thunderstorm = new URL('../../images/thunderstorm.jpg', import.meta.url);
-const snow = new URL('../../images/snow.jpg', import.meta.url);
-const mist = new URL('../../images/mist.jpg', import.meta.url);
+const clear = new URL('../../images/clear.webp', import.meta.url);
+const clouds = new URL('../../images/clouds.webp', import.meta.url);
+const rain = new URL('../../images/rain.webp', import.meta.url);
+const thunderstorm = new URL('../../images/thunderstorm.webp', import.meta.url);
+const snow = new URL('../../images/snow.webp', import.meta.url);
+const mist = new URL('../../images/mist.webp', import.meta.url);
 
 const WeatherForecast = (
   {setOpenWeatherHourlyModal}:
